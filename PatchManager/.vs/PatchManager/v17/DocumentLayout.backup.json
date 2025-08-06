@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\controllers\\patchstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:controllers\\patchstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\services\\queryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:services\\queryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\controllers\\querycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:controllers\\querycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\data\\patchdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:data\\patchdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\dtos\\customerpatchquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:dtos\\customerpatchquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\controllers\\patchstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:controllers\\patchstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\controllers\\patchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\services\\patchstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:services\\patchstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\services\\queryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:services\\queryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\dtos\\agentquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\dtos\\patchnotificationquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:dtos\\patchnotificationquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,24 +87,12 @@
       "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:dtos\\patchstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\dtos\\patchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:dtos\\patchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\dtos\\customerpatchquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:dtos\\customerpatchquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\data\\patchdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:data\\patchdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -127,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|c:\\users\\shaurya.singh\\onedrive - aveva solutions limited\\desktop\\cra\\cra\\patchmanager\\data\\patchdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7756D47-CEC0-4AF2-8994-4F514D677056}|PatchManager.csproj|solutionrelative:data\\patchdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -150,11 +150,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -167,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
@@ -185,18 +185,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PatchStatusService.cs",
-              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\PatchStatusService.cs",
-              "RelativeDocumentMoniker": "Services\\PatchStatusService.cs",
-              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\PatchStatusService.cs",
-              "RelativeToolTip": "Services\\PatchStatusService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwE8AAAAAAAAAAAAAAA==",
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "Services\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\ICustomerService.cs",
+              "RelativeToolTip": "Services\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T19:49:51.557Z"
+              "WhenOpened": "2025-08-04T23:09:52.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatchDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Data\\PatchDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\PatchDbContext.cs",
+              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Data\\PatchDbContext.cs",
+              "RelativeToolTip": "Data\\PatchDbContext.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAwwHgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T20:57:00.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QueryController.cs",
+              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Controllers\\QueryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QueryController.cs",
+              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Controllers\\QueryController.cs",
+              "RelativeToolTip": "Controllers\\QueryController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:13:33.006Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "QueryService.cs",
+              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\QueryService.cs",
+              "RelativeDocumentMoniker": "Services\\QueryService.cs",
+              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\QueryService.cs",
+              "RelativeToolTip": "Services\\QueryService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwDwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:04:05.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Services\\CustomerService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAqwBYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T18:40:04.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T18:40:52.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\CustomerDto.cs",
+              "RelativeToolTip": "DTOs\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T23:14:19.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerPatchQueryDto.cs",
+              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\CustomerPatchQueryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CustomerPatchQueryDto.cs",
+              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\CustomerPatchQueryDto.cs",
+              "RelativeToolTip": "DTOs\\CustomerPatchQueryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T09:04:46.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "PatchStatusController.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Controllers\\PatchStatusController.cs",
               "RelativeDocumentMoniker": "Controllers\\PatchStatusController.cs",
@@ -209,19 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QueryController.cs",
-              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Controllers\\QueryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\QueryController.cs",
-              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Controllers\\QueryController.cs",
-              "RelativeToolTip": "Controllers\\QueryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T09:13:33.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "PatchController.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Controllers\\PatchController.cs",
               "RelativeDocumentMoniker": "Controllers\\PatchController.cs",
@@ -233,19 +313,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QueryService.cs",
-              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\QueryService.cs",
-              "RelativeDocumentMoniker": "Services\\QueryService.cs",
-              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\QueryService.cs",
-              "RelativeToolTip": "Services\\QueryService.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAwGoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "PatchStatusService.cs",
+              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\PatchStatusService.cs",
+              "RelativeDocumentMoniker": "Services\\PatchStatusService.cs",
+              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\PatchStatusService.cs",
+              "RelativeToolTip": "Services\\PatchStatusService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T09:04:05.448Z"
+              "WhenOpened": "2025-08-04T19:49:51.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "AgentQueryDto.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\AgentQueryDto.cs",
               "RelativeDocumentMoniker": "DTOs\\AgentQueryDto.cs",
@@ -257,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "IPatchStatusService.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\IPatchStatusService.cs",
               "RelativeDocumentMoniker": "Services\\IPatchStatusService.cs",
@@ -269,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "IPatchService.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\IPatchService.cs",
               "RelativeDocumentMoniker": "Services\\IPatchService.cs",
@@ -281,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "PatchService.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\PatchService.cs",
               "RelativeDocumentMoniker": "Services\\PatchService.cs",
@@ -293,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "PatchStatusEnum.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Models\\PatchStatusEnum.cs",
               "RelativeDocumentMoniker": "Models\\PatchStatusEnum.cs",
@@ -305,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "PatchStatus.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Models\\PatchStatus.cs",
               "RelativeDocumentMoniker": "Models\\PatchStatus.cs",
@@ -317,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Patch.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Models\\Patch.cs",
               "RelativeDocumentMoniker": "Models\\Patch.cs",
@@ -329,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -341,19 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Models\\Customer.cs",
-              "RelativeToolTip": "Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T18:40:52.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "PatchNotificationQueryDto.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\PatchNotificationQueryDto.cs",
               "RelativeDocumentMoniker": "DTOs\\PatchNotificationQueryDto.cs",
@@ -365,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "PatchStatusDto.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\PatchStatusDto.cs",
               "RelativeDocumentMoniker": "DTOs\\PatchStatusDto.cs",
@@ -377,31 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CustomerDto.cs",
-              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\CustomerDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\CustomerDto.cs",
-              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\CustomerDto.cs",
-              "RelativeToolTip": "DTOs\\CustomerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T23:14:19.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "Services\\CustomerService.cs",
-              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\CustomerService.cs",
-              "RelativeToolTip": "Services\\CustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T18:40:04.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "PatchDto.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\PatchDto.cs",
               "RelativeDocumentMoniker": "DTOs\\PatchDto.cs",
@@ -413,19 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CustomerPatchQueryDto.cs",
-              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\CustomerPatchQueryDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\CustomerPatchQueryDto.cs",
-              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\CustomerPatchQueryDto.cs",
-              "RelativeToolTip": "DTOs\\CustomerPatchQueryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T09:04:46.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
@@ -437,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "AdminPatchQueryDto.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\DTOs\\AdminPatchQueryDto.cs",
               "RelativeDocumentMoniker": "DTOs\\AdminPatchQueryDto.cs",
@@ -449,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -461,19 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "PatchDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Data\\PatchDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\PatchDbContext.cs",
-              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Data\\PatchDbContext.cs",
-              "RelativeToolTip": "Data\\PatchDbContext.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAwwIgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T20:57:00.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -485,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "PatchManager.http",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\PatchManager.http",
               "RelativeDocumentMoniker": "PatchManager.http",
@@ -497,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -509,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "Services\\IAuthService.cs",
@@ -521,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Helpers\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Helpers\\MappingProfile.cs",
@@ -530,18 +550,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T19:46:47.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ICustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\ICustomerService.cs",
-              "RelativeDocumentMoniker": "Services\\ICustomerService.cs",
-              "ToolTip": "C:\\Users\\shaurya.singh\\OneDrive - AVEVA Solutions Limited\\Desktop\\CRA\\CRA\\PatchManager\\Services\\ICustomerService.cs",
-              "RelativeToolTip": "Services\\ICustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T23:09:52.174Z"
             },
             {
               "$type": "Document",
