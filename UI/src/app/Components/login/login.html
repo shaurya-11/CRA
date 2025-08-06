@@ -1,0 +1,26 @@
+<div class="login-container" [class.blur-background]="showSignup">
+  <div class="login-box">
+    <h2 class="name">CRA PROJECT</h2>
+    <form (ngSubmit)="onLogin()">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input id="username" type="text" [(ngModel)]="username" name="username" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input id="password" type="password" [(ngModel)]="password" name="password" required>
+      </div>
+
+      <button type="submit">Login</button>
+      <p>Don't have an account? <a (click)="toggleSignup()" style="cursor:pointer; color:blue;">Signup here</a></p>
+
+    </form>
+  </div>
+</div>
+
+<div class="modal-overlay" *ngIf="showSignup">
+  <div class="signup-modal">
+    <app-signup-component (close)="toggleSignup()"></app-signup-component>
+  </div>
+</div>

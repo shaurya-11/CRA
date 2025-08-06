@@ -1,0 +1,16 @@
+<h2 class="section-title">Customer Details</h2>
+<div class="customer-grid-header">
+  <div>Customer Name</div>
+  <div>Product Name</div>
+  <div>Current Version</div>
+  <div>Latest Version</div>
+  <div>Status</div>
+</div>
+
+<div *ngFor="let customer of customerDetails" class="customer-grid-row">
+  <div>{{ customer.customerName }}</div>
+  <div>{{ customer.productName }}</div>
+  <div>{{ customer.customerPatchVersion }}</div>
+  <div>{{ customer.latestPatchVersion }}</div>
+  <div>{{ customer.statusText }}</div>
+</div>

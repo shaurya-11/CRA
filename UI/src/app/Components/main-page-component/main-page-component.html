@@ -1,0 +1,115 @@
+
+<nav class="navbar">
+  <div class="navbar-left">
+
+    <button *ngIf="role === 'Admin'" (click)="toggleMenu()" class="icon-button burger-button" aria-label="Menu">
+      <span class="burger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </button>
+
+    <a *ngIf="role !== 'Admin'" routerLink="/home" class="home-button">
+      <i class="fa-solid fa-house"></i> Home
+    </a>
+
+  </div>
+  <div class="navbar-right">
+    <button *ngIf="role !== 'Admin'" (click)="goToNotifications()" class="icon-button">
+      <i class="fa-solid fa-bell"></i>
+    </button>
+    <div class="profile-menu">
+      <i class="fa-solid fa-user-circle" style="font-size: 1.7rem"></i>
+      <div class="dropdown">
+        <button (click)="logout()">Logout</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="main-content">
+  <!-- Side Menu (NOT blurred) -->
+  <nav *ngIf="role === 'Admin' && showMenu" class="side-menu">
+    <ul>
+      <li>
+        <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()">Home</a>
+      </li>
+      <li>
+        <a [routerLink]="['/home/patch-details']" routerLinkActive="active" (click)="closeMenu()">Patch Details</a>
+      </li>
+      <li *ngIf="role === 'Admin'">
+        <a [routerLink]="['/home/customer-details']" routerLinkActive="active" (click)="closeMenu()">Customer Details</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Content (can be blurred) -->
+  <div class="content-blur-wrapper" [class.blurred]="showMenu">
+    <div class="content-area">
+      <router-outlet></router-outlet>
+      <div *ngIf="router.url === '/home'" class="product-section">
+        <div class="update-button-container">
+          <div class="update-button-container">
+            <!-- Show "Add Product" if Admin -->
+            <button *ngIf="role === 'Admin'" class="update-button" >
+              Add Product
+            </button>
+
+            <!-- Show "Check for Updates" otherwise -->
+            <button *ngIf="role !== 'Admin'" class="update-button">
+              Check for Updates
+            </button>
+          </div>
+        </div>
+    <div class="product-container">
+      <div class="product-card" *ngFor="let product of products" (click)="goToProductDetails(product)">
+        <h3>{{ product.productName }}</h3>
+
+        <p *ngIf="role === 'Admin'">
+          <strong>Latest Version:</strong> {{ product.latestPatchVersion }}
+        </p>
+
+        <ng-container *ngIf="role !== 'Admin'">
+          <p><strong>Current Version:</strong> {{ product.customerPatchVersion }}</p>
+          <div class="status-row">
+            <strong>Status:</strong>
+            <span class="status-label">
+              {{ getStatusLabel(product.statusText) }}
+              <span class="status-dot" [ngClass]="getDotClass(product.statusText)"></span>
+            </span>
+          </div>
+        </ng-container>
+      </div>
+      </div>
+
+      </div>
+    </div>
+    <div class="modal-backdrop" *ngIf="showProductForm">
+      <div class="modal-box">
+        <h3>Add Product</h3>
+        <form  #productForm="ngForm">
+
+          <label>
+            Product Name:
+            <input type="text" [(ngModel)]="newProduct.name" name="name" required />
+          </label><br><br>
+
+          <label>
+            Customer ID:
+            <input type="number" [(ngModel)]="newProduct.customerId" name="customerId" required />
+          </label><br><br>
+
+          <div class="modal-actions">
+            <button type="submit" [disabled]="productForm.invalid">Submit</button>
+            <button type="button" (click)="toggleProductForm()">Cancel</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Backdrop to prevent interaction with content -->
+  <div *ngIf="showMenu" class="backdrop" (click)="toggleMenu()"></div>
+</div>

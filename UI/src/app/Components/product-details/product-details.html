@@ -1,0 +1,59 @@
+<!-- product-details.component.html -->
+
+<div class="product-details-container" *ngIf="role === 'Admin'">
+  <h2>{{this.productName}}</h2>
+  <table class="patch-table">
+    <thead>
+      <tr>
+        <th>Patch Name</th>
+        <th>Version</th>
+        <th>Description</th>
+        <th>Release Date</th>
+        <th>Customer Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let patch of AdminPatches">
+        <td>{{ patch.patchName }}</td>
+        <td>{{ patch.version }}</td>
+        <td>{{ patch.description }}</td>
+        <td>{{ patch.releaseDate | date: 'mediumDate' }}</td>
+        <td>{{ patch.customersUpdatedCount }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="product-details-container" *ngIf="role !== 'Admin' && patchDetails">
+  <div class="product-header">
+    <h2>{{ patchDetails.productName }}</h2>
+    <button class="update-button" (click)="onUpdatePatches()">Check for Updates</button>
+  </div>
+
+  <div class="product-info">
+    <div class="info-row">
+      <span class="label">Customer Version:</span>
+      <span class="value">{{ patchDetails.customerPatchVersion }}</span>
+    </div>
+    <div class="info-row">
+      <span class="label">Latest Version:</span>
+      <span class="value">{{ patchDetails.latestPatchVersion }}</span>
+    </div>
+    <div class="info-row">
+      <span class="label">Description:</span>
+      <span class="value">{{ patchDetails.latestPatchDescription }}</span>
+    </div>
+    <div class="info-row">
+      <span class="label">Release Date:</span>
+      <span class="value">{{ patchDetails.latestPatchReleaseDate | date: 'mediumDate' }}</span>
+    </div>
+    <div class="info-row">
+      <span class="label">Status:</span>
+      <span class="value">{{ patchDetails.statusText }}</span>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="role !== 'Admin' && !patchDetails">
+  <p>Loading or no patch information found for this product.</p>
+</div>

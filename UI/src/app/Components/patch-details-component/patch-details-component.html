@@ -1,0 +1,73 @@
+<h2 class="section-title">Patch Details</h2>
+
+<div class="button-row">
+  <button *ngIf="role === 'Admin'" (click)="toggleForm()">Add Patch</button>
+</div>
+
+<!-- Modal Dialog -->
+<div class="modal-backdrop" *ngIf="showForm">
+  <div class="modal-box">
+    <h3>Add Patch</h3>
+    <form (ngSubmit)="addPatch()">
+      <label>
+        Product Id:
+        <input type="text" [(ngModel)]="newPatch.productId" name="id" required />
+      </label><br><br>
+
+      <label>
+        Patch Name:
+        <input type="text" [(ngModel)]="newPatch.fileName" name="name" required />
+      </label><br><br>
+
+      <label>
+        Patch Version:
+        <input type="text" [(ngModel)]="newPatch.version" name="version" required />
+      </label><br><br>
+
+      <label>
+        Description:
+        <textarea [(ngModel)]="newPatch.description" name="description" required></textarea>
+      </label><br><br>
+
+      <label>
+        Upload Patch File:
+        <input type="file" (change)="onFileSelected($event)" required />
+      </label><br><br>
+
+      <div class="modal-actions">
+        <button 
+          type="submit" 
+          [disabled]="
+            !newPatch.productId || 
+            !newPatch.fileName || 
+            !newPatch.version || 
+            !newPatch.description || 
+            !selectedFile
+          ">
+          Submit
+        </button>
+        <button type="button" (click)="toggleForm()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Patch Grid Header -->
+<div class="patch-grid-header">
+  <div>Product Name</div>
+  <div>Patch Name</div>
+  <div>Latest Version</div>
+  <div>Description</div>
+  <div>Release Date</div>
+  <div>Update Progress</div>
+</div>
+
+<!-- Patch Grid Rows -->
+<div *ngFor="let patch of patches" class="patch-grid-row">
+  <div>{{patch.productName}}</div>
+  <div>{{ patch.patchName }}</div>
+  <div>{{ patch.version }}</div>
+  <div>{{ patch.description }}</div>
+  <div>{{ patch.releaseDate| date: 'medium' }}</div>
+  <div>{{patch.customersUpdatedCount}}</div>
+</div>

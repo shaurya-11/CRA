@@ -1,0 +1,49 @@
+<div class="notification-layout">
+  <!-- Sidebar -->
+  <nav class="notification-sidebar" *ngIf="notifications && notifications.length > 0; else noNotifications">
+    <ul class="notification-list">
+      <li 
+        *ngFor="let note of notifications" 
+        (click)="selectNotification(note)" 
+        [class.active]="selectedNotification?.patchName === note.patchName"
+        class="notification-list-item"
+        tabindex="0"
+        title="Click to view details"
+      >
+        <div class="notification-summary">
+          <div class="product-name">{{ note.productName }}</div>
+          <div class="product-version">v{{ note.version }}</div>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Details -->
+  <div class="notification-details" *ngIf="selectedNotification && notifications.length > 0">
+    <h2 class="product-title">{{ selectedNotification.productName }}</h2>
+    <div class="detail-row">
+      <strong>Patch Version:</strong> {{ selectedNotification.version }}
+    </div>
+    <div class="detail-row">
+      <strong>Patch File:</strong> {{ selectedNotification.patchName }}
+    </div>
+    <div class="detail-row">
+      <strong>Description:</strong> {{ selectedNotification.description }}
+    </div>
+    <div class="detail-row">
+      <strong>Release Date:</strong> {{ selectedNotification.releaseDate | date: 'mediumDate' }}
+    </div>
+    <div class="download-button-container">
+    <button class="download-button" (click)="downloadPatch(selectedNotification.patchName)">
+      <i class="fa fa-download" style="margin-right: 8px;"></i> Download Patch
+    </button>
+  </div>
+  </div>
+
+  <!-- No notifications message -->
+  <ng-template #noNotifications>
+    <div class="no-notifications-message">
+      <p>No updates available.</p>
+    </div>
+  </ng-template>
+</div>

@@ -1,0 +1,24 @@
+<div class="signup-container">
+    <button class="close-btn" (click)="close.emit()">× </button>
+    <div class="signup-box">
+        <h2 >Signup</h2>
+        <form >
+            <div>
+            <label for="name">Name</label>
+            <input id="name" [(ngModel)]="newCustomer.name" name="name" required />
+            </div>
+
+            <div>
+            <label for="name">ServerIP</label>
+            <input id="serverIp" [(ngModel)]="newCustomer.serverIp" name="serverIp" required />
+            </div>
+
+            <div>
+            <label for="password">Password</label>
+            <input id="password" type="password" [(ngModel)]="password" name="password" required />
+            </div>
+
+            <button (click)="addCustomer()">Submit</button>
+        </form>
+    </div>
+</div>
